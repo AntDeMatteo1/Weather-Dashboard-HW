@@ -25,3 +25,42 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
 }
+
+#five-day-forecast-container {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: transparent;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-content {
+    background-color: #2cb5d4;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: 4px 10px 4px rgba(73, 72, 72, 0.539);
+}
+
+.col {
+    padding: 0 5px;
+}
+
+.container {
+    max-width: 100% !important;
+    min-width: 100%;
+}
+
+#hide {
+    display: none;
+}
+
+#city-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    width: 50%;
+}
