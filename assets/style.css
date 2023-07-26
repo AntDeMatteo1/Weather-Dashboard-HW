@@ -1,0 +1,27 @@
+header {
+    background-color: #2697d4;
+    padding-bottom: 20px;
+}
+
+main {
+    width: 100%;
+    padding-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2697d4;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
